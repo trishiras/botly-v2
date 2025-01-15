@@ -1,0 +1,2 @@
+gradio==5.20.1
+langchain-ollama==0.2.3
