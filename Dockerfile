@@ -28,11 +28,11 @@ RUN curl -fsSL https://ollama.com/install.sh | sh
 
 
 
-# Install Open WebUI
+# Install requirements.txt packages
 RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
 
 
-# Expose the default WebUI port
+# Expose the default Gradio port
 EXPOSE 7861
 
 

@@ -13,5 +13,5 @@ ollama pull qwen2.5:1.5b
 # Wait for Ollama server to complete (if needed)
 wait $OLLAMA_PID &
 
-# Start Open WebUI
+# Start Botly
 python3 /usr/src/app/botly.py
