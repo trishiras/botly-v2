@@ -41,6 +41,21 @@ View live logs from the running container:
 sudo docker logs -f $(sudo docker ps -q --filter ancestor=botly:latest)
 ```  
 
+
+## **Demonstration Screenshots**
+Below are some screenshots showcasing the application in action:
+
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+
+### Demo Chat
+![Demo Chat](screenshots/demo_chat_1.png)
+![Demo Chat](screenshots/demo_chat_2.png)
+
+
+
 ## **License**  
 This project is open-source and available under the [MIT License](LICENSE).  
 
